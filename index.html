@@ -1,24 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CSS Flexbox Example</title>
-
-    <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-
-    <section class="container">
-        <div class="item">One</div>
-        <div class="item">Two</div>
-        <div class="item">Three</div>
-        <div class="item">Four</div>
-    </section>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Learn Flexbox</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+  </head>
+  <body>
+    <header class="fixed-header">
+      <div class="container">
+        <div class="item-header logo">
+          <img src="/assets/img/logo.png" width="120px" alt="Logo Instagram" />
+        </div>
+        <div class="item-header search">
+          <input
+            type="text"
+            name="search"
+            class="input-search"
+            placeholder="Cari..."
+          />
+        </div>
+        <div class="item-header action">
+          <button class="btn btn-masuk">Masuk</button>
+          <button class="btn btn-daftar">Daftar</button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="top-content">
+        <div class="item story">
+          <div class="canvas">
+            <img
+              src="/assets/img/img-story.png"
+              alt="story ig"
+              class="img-story"
+            />
+          </div>
+        </div>
+        <div class="item detail">
+          <h1 class="title">xiaomiindonesia</h1>
+          <div class="activity">
+            <div class="item">
+              <span><b>1,289</b> kiriman</span>
+            </div>
+            <div class="item">
+              <span><b>5,6m</b> pengikut</span>
+            </div>
+            <div class="item">
+              <span><b>128</b> diikuti</span>
+            </div>
+          </div>
+          <h4>Xiaomi Indonesia</h4>
+          <p>Akun resmi Xiaomi Indonesia 🇮🇩 <a href="#">#XiaomiIndonesia</a></p>
+          <p>Siap-siap buat <a href="#">#KejutanMi1212</a></p>
+          <p>
+            <a href="#"><b>bit.ly/MiSYES18</b></a>
+          </p>
+        </div>
+      </div>
+      <div class="story-highlight">
+        <div class="item">
+          <div class="canvas">
+            <img
+              src="/assets/img/story/story1.png"
+              alt="story1"
+              class="img-story"
+            />
+          </div>
+          <div class="text"><h4>Inovation</h4></div>
+        </div>
+        <div class="item">
+          <div class="canvas">
+            <img
+              src="/assets/img/story/story2.png"
+              alt="story2"
+              class="img-story"
+            />
+          </div>
+          <div class="text"><h4>Security</h4></div>
+        </div>
+        <div class="item">
+          <div class="canvas">
+            <img
+              src="/assets/img/story/story3.png"
+              alt="story3"
+              class="img-story"
+            />
+          </div>
+          <div class="text"><h4>MIUI 10</h4></div>
+        </div>
+        <div class="item">
+          <div class="canvas">
+            <img
+              src="/assets/img/story/story4.png"
+              alt="story4"
+              class="img-story"
+            />
+          </div>
+          <div class="text"><h4>MIUI 8</h4></div>
+        </div>
+        <div class="item">
+          <div class="canvas">
+            <img
+              src="/assets/img/story/story5.png"
+              alt="story5"
+              class="img-story"
+            />
+          </div>
+          <div class="text"><h4>Mi Band</h4></div>
+        </div>
+        <div class="item">
+          <div class="canvas">
+            <img
+              src="/assets/img/story/story6.png"
+              alt="story6"
+              class="img-story"
+            />
+          </div>
+          <div class="text"><h4>Power Bank</h4></div>
+        </div>
+        <div class="item">
+          <div class="canvas">
+            <img
+              src="/assets/img/story/story7.png"
+              alt="story7"
+              class="img-story"
+            />
+          </div>
+          <div class="text"><h4>Mi TV</h4></div>
+        </div>
+      </div>
+      <div class="main-content">
+        <hr class="b-gray" />
+        <div class="menu">
+          <div class="item post">
+            <h5><i class="fa fa-th"></i> POSTINGAN</h5>
+          </div>
+          <div class="item tag">
+            <h5><i class="fa fa-group"></i> DITANDAI</h5>
+          </div>
+        </div>
+        <div class="photo-grid">
+          <div class="cards photo1">
+            <div class="banner">
+              <div class="status">
+                <div class="item">
+                  <h4><i class="fa fa-heart"></i> 7,876</h4>
+                </div>
+                <div class="item">
+                  <h4><i class="fa fa-comment"></i> 287</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards photo2">
+            <div class="banner">
+              <div class="status">
+                <div class="item">
+                  <h4><i class="fa fa-heart"></i> 7,876</h4>
+                </div>
+                <div class="item">
+                  <h4><i class="fa fa-comment"></i> 287</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards photo3">
+            <div class="banner">
+              <div class="status">
+                <div class="item">
+                  <h4><i class="fa fa-heart"></i> 10,6k</h4>
+                </div>
+                <div class="item">
+                  <h4><i class="fa fa-comment"></i> 387</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards photo4">
+            <div class="banner">
+              <div class="status">
+                <div class="item">
+                  <h4><i class="fa fa-heart"></i> 3,465</h4>
+                </div>
+                <div class="item">
+                  <h4><i class="fa fa-comment"></i> 209</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards photo5">
+            <div class="banner">
+              <div class="status">
+                <div class="item">
+                  <h4><i class="fa fa-heart"></i> 4,654</h4>
+                </div>
+                <div class="item">
+                  <h4><i class="fa fa-comment"></i> 154</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards photo6">
+            <div class="banner">
+              <div class="status">
+                <div class="item">
+                  <h4><i class="fa fa-heart"></i> 11,7k</h4>
+                </div>
+                <div class="item">
+                  <h4><i class="fa fa-comment"></i> 287</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="#">TENTANG KAMI</a> <a href="#">DUKUNGAN</a>
+      <a href="#">PERS</a> <a href="#">API</a> <a href="#">PEKERJAAN</a>
+      <a href="#">PRIVASI</a> <a href="#">KETENTUAN</a>
+      <a href="#">DIREKTORI</a> <a href="#">PROFIL</a> <a href="#">TAGAR</a>
+      <a href="#">BAHASA</a> <small>© 2018 INSTAGRAM</small>
+    </footer>
+  </body>
 </html>
